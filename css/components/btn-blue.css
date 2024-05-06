@@ -1,0 +1,24 @@
+.btn-blue {
+    background-color: #86A329; /* Sets the new green color */
+    color: white; /* Text color is white */
+    padding: 10px 20px; /* Example padding */
+    text-decoration: none; /* Removes underline from links */
+    display: inline-block; /* Ensures it behaves like a button */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-family: 'Roboto', sans-serif; /* Font style from your settings */
+    font-size: 16px; /* Font size from your settings */
+    font-weight: 600; /* Font weight from your settings */
+}
+
+.btn-blue:hover {
+    background-color: white; /* Blue color on hover as defined by you */
+    color: black; /* Change text color to black on hover for clarity */
+}
+
+.btn-blue a{
+    color:white;
+}
+
+.btn-blue a:hover{
+    color:black;
+}
